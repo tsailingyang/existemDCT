@@ -13,7 +13,7 @@
         #intro {
             width: 552px;
             margin: 0 auto;
-            font-size: 24px;
+            font-size: 20px;
             line-height: 1.5;
             color: #222222;
             font-family: Microsoft JhengHei;
@@ -32,7 +32,7 @@
         }
 
         .pic1 {
-            position:static;
+            position: static;
             width: 412px;
             left: 261px;
         }
@@ -48,7 +48,8 @@
         }
 
         .article2 {
-            position: absolute;
+            position: static;
+            display: inline-block;
             font-size: 38px;
             font-weight: bold;
             width: 379px;
@@ -60,11 +61,12 @@
 </head>
 
 <body>
+    <video id="movie" preload controls width="100%">
+        <source src="https://raw.githubusercontent.com/nickhsine/teach-at-nccu/gh-pages/assets/2018-05-03/video.mp4" type="video/mp4"
+        />
+    </video>
     <article style="max-width: 900px; margin: 0 auto; position: relative;">
-        <video id="movie" preload controls width="100%">
-            <source src="https://raw.githubusercontent.com/nickhsine/teach-at-nccu/gh-pages/assets/2018-05-03/video.mp4" type="video/mp4"
-            />
-        </video>
+
 
         <!-- <p align="center" class="title">下三手年！之性到官？</p> -->
 
@@ -91,19 +93,18 @@
                 <p>相較於其他組員這次的畢業製作幾近從零開始學習,擔綱 2D 視覺設計的新聞四謝明倫與 3D 動畫設計的英文四廖珞安,過去不論在繪本或是平面作品中,經常負責組內視覺。只是,全然以 「動態視覺設計」為媒介傳遞訊息,尤其更要結合音樂與互動進行創作,對於兩人來說都是一個
                     全新的嘗試。
                 </p>
-
             </div>
         </div>
 
         <!-- 視覺二 -->
-        <p>
+        <div>
             <a style="color:white; background-color: white; border-color: white;" class="btn btn-primary" data-toggle="collapse" href="#collapseExample"
                 role="button" aria-expanded="false" aria-controls="collapseExample">
-                <img class="pic1" src="a-index/visual1.jpg"></img>
+                <img class="pic1" src="a-index/visual2.jpg"></img>
 
             </a>
             <div class="article2">不是動畫系的動態視覺設計故事（下）</div>
-        </p>
+        </div>
 
         <div class="collapse" id="collapseExample">
             <div class="card card-body">
@@ -113,7 +114,7 @@
         </div>
 
         <!-- 音樂一 -->
-        <p>
+        <div>
             <a style="color:white; background-color: white; border-color: white;" class="btn btn-primary" data-toggle="collapse" href="#collapseExample"
                 role="button" aria-expanded="false" aria-controls="collapseExample">
                 <img class="pic1" src="a-index/visual1.jpg"></img>
@@ -121,7 +122,7 @@
             </a>
             <div class="article1">淺談數位藝術作品聲音設計（上）
             </div>
-        </p>
+        </div>
 
         <div class="collapse" id="collapseExample">
             <div class="card card-body">
@@ -131,7 +132,7 @@
         </div>
 
         <!-- 音樂二 -->
-        <p>
+        <div>
             <a style="color:white; background-color: white; border-color: white;" class="btn btn-primary" data-toggle="collapse" href="#collapseExample"
                 role="button" aria-expanded="false" aria-controls="collapseExample">
                 <img class="pic1" src="a-index/visual1.jpg"></img>
@@ -139,7 +140,7 @@
             </a>
             <div class="article1">淺談數位藝術作品聲音設計（下）
             </div>
-        </p>
+        </div>
 
         <div class="collapse" id="collapseExample">
             <div class="card card-body">
@@ -149,7 +150,7 @@
         </div>
 
         <!-- PM -->
-        <p>
+        <div>
             <a style="color:white; background-color: white; border-color: white;" class="btn btn-primary" data-toggle="collapse" href="#collapseExample"
                 role="button" aria-expanded="false" aria-controls="collapseExample">
                 <img class="pic1" src="a-index/visual1.jpg"></img>
@@ -157,7 +158,7 @@
             </a>
             <div class="article1">如何當一名學生畢業製作 PM
             </div>
-        </p>
+        </div>
 
         <div class="collapse" id="collapseExample">
             <div class="card card-body">
