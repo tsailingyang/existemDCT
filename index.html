@@ -1,13 +1,22 @@
 <html>
 
 <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
         crossorigin="anonymous">
 
     <style>
+        body {
+            font-family: "NotoSansCJKtc", "Noto Sans TC", "Microsoft JhengHei", "PingFang TC", "Apple LiGothic Medium";
+            background-color: rgb(226, 226, 226);
+        }
+        
         .title {
             margin-top: 179px;
             margin-bottom: 43px;
+            font-size: 24px;
+            line-height: 1.5;
+            color: #222222;
         }
 
         #intro {
@@ -17,24 +26,84 @@
             line-height: 1.5;
             color: #222222;
             font-family: Microsoft JhengHei;
-            margin-bottom: 238px;
+            margin-bottom: 150px;
             margin-top: 179px;
         }
 
         .p {
+             width: 552px;
+            margin: 0 auto 43px auto;
+            font-size: 20px;
+            line-height: 1.6;
+            letter-spacing: 1.5;
+            color: #222222;
             margin-top: 20px;
+            text-align: justify;
         }
 
         .p1 {
             width: 552px;
             margin: 0 auto;
-            font-size: 24px；
+            font-size: 20px;
+            line-height: 1.5;
+            letter-spacing: 1.5;
+            color: #222222;
+        }
+        
+        h2 {
+            margin-left: 420px;
+            font-family: NotoSansCJKtc;
+            font-weight: bold;
+            font-size: 30px;
+            line-height: 1.5;
+            text-align: left;
+            color: #222222;
         }
 
         .pic1 {
             position: static;
             width: 412px;
             left: 261px;
+            margin-bottom: 30px;
+        }
+        
+        .pic2 {
+            margin-top: 100px;
+            position: static;
+            width: 412px;
+            left: 261px;
+            margin-bottom: 30px;
+
+        }
+
+        .pic3 {
+            margin-top: 100px;
+            position: static;
+            width: 412px;
+            left: 261px;
+            margin-bottom: 30px;
+
+        }
+
+        .card-header {
+            padding: .75rem 1.25rem;
+            margin-bottom: 0;
+            background-color:rgb(226, 226, 226);
+            border-bottom: 0px;
+        }
+        
+        .blockquote {
+            width: 100%;
+            font-size: 20px;
+            line-height: 1.8;
+            letter-spacing: 3;
+            font-weight: bold;
+            color: #ffffff;
+            padding-bottom: 50px;
+            padding-top: 50px;
+            margin-bottom: 40px;
+            background-color: aqua;
+            text-align: center
         }
 
         .article1 {
@@ -77,98 +146,137 @@
         </div>
         <!-- <div class="p1"> 做的觀感生過量表些的國銷物；還支來為高最馬星？樣就合光：實開有樂衣我害，了然品。</div> -->
 
+ <!-- 這邊是第1張卡片-->
+    <div id="accordion">
+        <div style="border: 0ch;" class="card">
+            <div class="card-header" id="headingOne">
+                <h5 class="mb-0">
+                    <button style=" position: relative;left: 23%;" class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true"
+                        aria-controls="collapseOne">
+                        <img class="pic1" src="pic1.png"></img>
+                    </button>
+                    <span style="display: inline-block;position:relative;left:22.5%;bottom:-180px;font-size: 38px; width:409px">不是動畫系的動態視覺設計故事（上）</span>
+                </h5>
 
+            </div>
 
-        <!-- 視覺一 -->
-        <div>
-            <a style="color:white; vertical-align:bottom" class="btn btn-primary" data-toggle="collapse" href="#collapseExample" role="button"
-                aria-expanded="false" aria-controls="collapseExample">
-                <img class="pic1" src="a-index/visual1.jpg"></img>
-            </a>
-            <div class="article1">不是動畫系的動態視覺設計故事（上）</div>
-        </div>
-
-        <div class="collapse" id="collapseExample">
-            <div class="card card-body">
-                <p>相較於其他組員這次的畢業製作幾近從零開始學習,擔綱 2D 視覺設計的新聞四謝明倫與 3D 動畫設計的英文四廖珞安,過去不論在繪本或是平面作品中,經常負責組內視覺。只是,全然以 「動態視覺設計」為媒介傳遞訊息,尤其更要結合音樂與互動進行創作,對於兩人來說都是一個
-                    全新的嘗試。
-                </p>
+            <div style="border: 0ch" id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+                <div class="card-body">
+                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute,
+                    non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon
+                    tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil
+                    anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan
+                    excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt
+                    you probably haven't heard of them accusamus labore sustainable VHS.
+                </div>
             </div>
         </div>
+    </div>
+    </div>
 
-        <!-- 視覺二 -->
-        <div>
-            <a style="color:white; background-color: white; border-color: white;" class="btn btn-primary" data-toggle="collapse" href="#collapseExample"
-                role="button" aria-expanded="false" aria-controls="collapseExample">
-                <img class="pic1" src="a-index/visual2.jpg"></img>
-
-            </a>
-            <div class="article2">不是動畫系的動態視覺設計故事（下）</div>
+    <!-- 這邊是第2張卡片-->
+    <div style="border: 0ch" class="card">
+        <div class="card-header" id="headingTwo">
+            <h5 class="mb-0">
+                <button style=" position: relative;left:49%" class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo"
+                    aria-expanded="false" aria-controls="collapseTwo">
+                    <img class="pic2" src="pic1.png"></img>
+                </button>
+                <span style="display: inline-block;position:relative;left:-10.5%;bottom:-220px;font-size: 38px; width:409px" >不是動畫系的動態視覺設計故事（下）</span>
+            </h5>
         </div>
-
-        <div class="collapse" id="collapseExample">
-            <div class="card card-body">
-                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica,
-                craft beer labore wes anderson cred nesciunt sapiente ea proident.
+        <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+            <div class="card-body">
+                <p class="p">相較於其他組員這次的畢業製作幾近從零開始學習，擔綱 2D 視覺設計的新聞四謝明倫與 3D 動畫設計的英文四廖珞安，過去不論在繪本或是平面作品中，經常負責組內視覺。只是，全然以「動態視覺設計」為媒介傳遞訊息，尤其更要結合音樂與互動進行創作，對於兩人來說都是一個全新的嘗試。</p>
+                <h2>正式創作前的準備</h2>
+                <p class="p">珞安過去沒有學過任何 3D 動畫軟體，於是在創作前，先花了很多時間透過線上課程學習 Cinema 4D，從最基礎的介面操作開始一步一步學習。而明倫之前有學過 After Effects，則是不斷照著 YouTube
+                        上的教學影片練習，習慣介面，並且更熟悉有什麼功能可以用。</p>
+                <p class="p">在完整的音樂創作完畢前，因為製作時程緊湊，視覺組必須同時設計分鏡和學習軟體。珞安和明倫起初常共同討論，想到什麼就立刻畫下來。等到音樂正式出來後，再細部刪減或修正每一鏡的長度。</p>
+                <h2>創作一旦開始，問題便浮上檯面</h2>
+                <p class="p">《超公制》總共有〈Intro〉、〈Absolute〉和〈Relative〉三段，以及中間的觀眾互動橋段。明倫表示，當他一聽見音樂，立刻想到視覺的畫面的呈現方式。於是〈Intro〉的創作時間非常短，二至三小時之內就做完了。</p>
+                <img class="mark" src=""></img>
+                <p class="p">〈Intro〉到〈Absolute〉之間的轉場是珞安負責的第一個部份，雖然當時還在摸索與適應 Cinema 4D，不過「畫面碎裂」的作法，網路上有許多能夠參考的影片，以致於並沒有花上太多時間。</p>
+                <img class="pic2" src=""></img>
+                <p class="p">不過，珞安在〈Absolute〉前半段就做了比較久，很多素材都是第一次建立 3D 模型。例如畫面中出現的「沙漏」。珞安發現她明明已經檢查過無數次玻璃處是否有破洞或是製作時沒有接好，但每當沙漏翻轉時，裡面的沙子就會掉出來。</p>
+                <p class="p">珞安直接跑到數位內容與科技學程所開設的「基礎動畫設計」課堂，尋求曾瀚儀老師的協助。老師幫忙調整了像「摩擦力」等沙漏材質，並且建議將沙子顆粒調大，如此一來即便沙漏旋轉，沙子也不會掉出來。唯獨高速旋轉仍然有狀況，但發現沙子噴出來反而製造出另一種效果，就讓它維持現狀。</p>
+                <img class="pic3" src=""></img>
+                <p class="p">此外，有段畫面是房間內不斷有球體飛入，製作階段亦耗費許多時間。設計分鏡畫面時，珞安希望球能依循特定的路徑前進，同時想讓它隨機出現，觀眾看起來的效果就如同一直有新的球生成。可是實際操作上卻難以達成，珞安嘗試讓很多球吸附著一個物體，並跟著路徑向前，但視覺上看起來就會是一團球體，而不是一顆一顆分別出現。</p>
+                <img class="pic4" src=""></img>
+                <div class="blockquote">後來有在網路上找到方法，只是解決了這個問題之後，又不斷產生新的狀況。</div>
+                <p class="p">明倫原先創作〈Absolute〉時有加上色彩，反覆檢視後發覺黑白的呈現比較適合。但因為畫面抽掉顏色，創作過程中明倫一度發現畫面單調且不夠細緻，想添加新元素。</p>
+                <p class="p">其中，有加入許多具象的文字，如「氵」。明倫認為「水」、「光」和「時間」概念很相近，「時間就像水一樣。」背景也有波紋的感覺。</p>
+                <img class="pic5" src=""></img>
+                <p class="p">《超公制》原先的展出形式是三輸出，為了填滿三個螢幕，畫面比例很長，更明顯地感覺到畫面很「空」。開始創作不久後，組內開會上決議調整畫面比例為 1:1 的正方形，畫面反而突然變得很滿，剛好解決之前的問題。</p>
+                <p class="p">對視覺組而言，〈Absolute〉是整個作品創作較前期的階段，再加上其音樂長、設計難度高。一旦有新的想法，明倫便都會嘗試看看。珞安則表示，當時都還在看線上教學，學習軟體基礎面。隨著時程變得緊湊後，轉變為直接查找特定效果的製作方式。</p>
+                <h2>時空隧道中，2D與3D結合的歷程</h2>
+                <p class="p">相較之下，創作〈Relative〉時各方面都更加得心應手，便減少了許多創作心力。從預先設計好的分鏡判斷，明倫原先以為整首〈Relative〉都需要藉由 3D 軟體製作。但上網查詢資料時，發現到其實 After
+                        Effects 也能做出相同效果，於是開始嘗試著做看看。它的做法是透過 Trapcode 的插件，再用攝影機的 Top 去看就會得到 3D 的隧道效果。</p>
+                <p class="p">雖然已經知道技術上如何執行，但明倫一開始在設計視覺時，音樂只有 demo 版，尚無法確定最終時間長度。結果最後音樂比當初預想的更長，隧道反而變得太短。</p>
+                <p class="p">不過上述作法如同開一個畫布，從上面俯視已經是長度的極限，再畫下去就會超過畫布大小，最後只好將畫布放大兩倍。</p>
+                <img class="pic5" src=""></img>
+                <p class="p">這導致解析度變高了許多，輸出檔案也變相當大，接著引發程式端產生跑不動的現象，於是又反覆調整了好幾回。</p>
+                <div class="blockquote">觀眾看到的只是一條隧道， 但前後製作和調整花了很多時間和精力。</div>
+                <p class="p">當明倫完成隧道後，珞安再將動物一隻一隻放到畫面中。而因為背景是用 After Effects，若想讓動物看似真的從隧道壁冒出來，便需要再將完成的影片放回 Cinema 4D 裡，才會產生讓動物從牆面上出現的感受。2D
+                        背景和 3D 物件結合的過程中，珞安也費了不少心思，因為背景的隧道會隨著音樂不斷地變化。</p>
+                <p class="p">〈Relative〉後段進入宇宙中，皆採 3D 創作、檔案相當大，珞安雖然已經為畢業製作改用桌上型電腦，每調一個 frame 就要等上好一段時間。後期甚至嚴重到無法預覽，只好等做完一個段落，全部輸出後一併檢查。但經常輸出很久，裡面卻又有些小問題需要再次修正。</p>
+                <img class="mark" src=""></img>
+                <img class="mark" src=""></img>
             </div>
         </div>
+    </div>
+    <!-- 這邊是第3張卡片-->
+    <div  style="border: 0ch" class="card">
+        <div class="card-header" id="headingThree">
+            <h5 class="mb-0">
+                <button style=" position: relative;left: 23%" class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree"
+                    aria-expanded="false" aria-controls="collapseThree">
+                    <img class="pic3" src="pic1.png"></img>
 
-        <!-- 音樂一 -->
-        <div>
-            <a style="color:white; background-color: white; border-color: white;" class="btn btn-primary" data-toggle="collapse" href="#collapseExample"
-                role="button" aria-expanded="false" aria-controls="collapseExample">
-                <img class="pic1" src="a-index/visual1.jpg"></img>
-
-            </a>
-            <div class="article1">淺談數位藝術作品聲音設計（上）
+                </button>
+                <span style="display: inline-block;position:relative;left:22.5%;bottom:-220px;font-size: 38px; width:409px" >淺談數位數位藝術作品聲音設計（上）</span>
+            </h5>
+        </div>
+        <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+            <div class="card-body">
+                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute,
+                non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon
+                tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil
+                anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan
+                excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt
+                you probably haven't heard of them accusamus labore sustainable VHS.
             </div>
         </div>
-
-        <div class="collapse" id="collapseExample">
-            <div class="card card-body">
-                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica,
-                craft beer labore wes anderson cred nesciunt sapiente ea proident.
-            </div>
-        </div>
-
-        <!-- 音樂二 -->
-        <div>
-            <a style="color:white; background-color: white; border-color: white;" class="btn btn-primary" data-toggle="collapse" href="#collapseExample"
-                role="button" aria-expanded="false" aria-controls="collapseExample">
-                <img class="pic1" src="a-index/visual1.jpg"></img>
-
-            </a>
-            <div class="article1">淺談數位藝術作品聲音設計（下）
-            </div>
-        </div>
-
-        <div class="collapse" id="collapseExample">
-            <div class="card card-body">
-                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica,
-                craft beer labore wes anderson cred nesciunt sapiente ea proident.
-            </div>
-        </div>
-
-        <!-- PM -->
-        <div>
-            <a style="color:white; background-color: white; border-color: white;" class="btn btn-primary" data-toggle="collapse" href="#collapseExample"
-                role="button" aria-expanded="false" aria-controls="collapseExample">
-                <img class="pic1" src="a-index/visual1.jpg"></img>
-
-            </a>
-            <div class="article1">如何當一名學生畢業製作 PM
-            </div>
-        </div>
-
-        <div class="collapse" id="collapseExample">
-            <div class="card card-body">
-                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica,
-                craft beer labore wes anderson cred nesciunt sapiente ea proident.
-            </div>
-        </div>
+    </div>
 
 
-
+    <footer>
+        <table style="width:100%;border-spacing:48px">
+            <tbody>
+                <ul style="padding-left:0;
+                                list-style-type:none;
+                                margin-top:60px;
+                                margin-bottom: 20px;
+                                font-size:16px;
+                                line-height: 2.25;
+                                text-align: center;
+                                font-weight:bold">
+                    <li>
+                        <a href="https://nickhsine.github.io/teach-at-nccu/" target="_blank" style="text-decoration: none;color:#e4e4e4;border-bottom:1px solid #b1b1b1">關於我們</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://nickhsine.github.io/teach-at-nccu/" target="_blank" style="text-decoration: none;color:#e4e4e4;border-bottom:1px solid #b1b1b1">聯繫我們</span>
+                        </a>
+                    </li>
+                    <l>
+                        <a href="https://nickhsine.github.io/teach-at-nccu/" target="_blank" style="text-decoration: none;color:#e4e4e4;border-bottom:1px solid #b1b1b1">加入我們</span>
+                        </a>
+                        </li>
+                        <div style="font-size:12px;color:aliceblue;line-height:4">@2018 NCCU Journalism</div>
+                </ul>
+            </tbody>
+        </table>
+    </footer>
 
 
 
